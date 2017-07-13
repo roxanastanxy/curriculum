@@ -1,0 +1,55 @@
+body{
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+    text-align: left;
+    margin-left: 150px;
+}
+img{
+    width:150px;
+    position: absolute;
+    right:0;
+    top:0; 
+}
+
+hr{
+    width: 60%;
+    position:absolute;
+    border-top: 3px solid grey; 
+    border-bottom: 3px solid grey; 
+    border-left:none; 
+    border-right:none; 
+    height: 6px; 
+}
+#email{
+    background-color:aqua;
+    text-decoration: underline;
+}
+
+h2{
+    text-decoration: underline;
+}
+h3{
+    text-decoration: underline;    
+}
+.nombre{
+    padding-top:30px;
+    text-decoration: underline;
+}
+table{
+    position: center;
+    text-align: center;
+    
+}
+caption{
+    text-decoration:underline;
+    font-size: 25px;  
+}
+.tabla{
+    margin-left: 150px;
+    margin-right: 150px;  
+}
+.dato{
+  background-color: crimson;
+    border-radius: 10px;
+
+}
