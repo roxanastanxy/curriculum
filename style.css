@@ -4,11 +4,31 @@ body{
     text-align: left;
     margin-left: 150px;
 }
+.container{
+   
+     width:90%;
+    margin: 0 auto;
+    max-width: 900px;
+    border: solid;
+    padding: 2em;
+    box-shadow: 5px 5px 5px;
+    padding-left: 3em;
+    background-color: rgba(255, 255, 255, .5);
+}
 img{
     width:150px;
-    position: absolute;
-    right:0;
-    top:0; 
+    float:right;
+    margin-top:;
+}
+h1{
+    padding-top:2em;
+    margin-left:0;
+}
+.dato{
+  background-color: #c93691;
+    border-radius: 10px;
+    padding: 7px;
+
 }
 
 hr{
@@ -38,18 +58,61 @@ h3{
 table{
     position: center;
     text-align: center;
+    border-collapse: separate;
+    border-spacing: 5px;
+    padding:
+    
     
 }
 caption{
-    text-decoration:underline;
-    font-size: 25px;  
+    padding:10px;
+    font-size:20px;
+    text-decoration: underline;
 }
+td{
+    margin:20px;
+    padding-left:10px;
+}
+.datagrid table{ 
+    border-collapse: collapse; 
+    text-align:center;
+    width: 100%; 
+} 
+.datagrid {
+    font: normal 12px/150% Arial, Helvetica, sans-serif; 
+   
+    overflow: hidden;
+}
+.datagrid table td, .datagrid table th { padding: 10px 11px; 
+}
+/*.datagrid table thead th {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #313199), color-stop(1, #C9C3C5) );
+    background:-moz-linear-gradient( center top, #313199 5%, #C9C3C5 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#313199', endColorstr='#C9C3C5');
+    background-color:#313199;
+    color:#362222; 
+    font-size: 13px;
+    font-weight: bold; 
+} 
+.datagrid table thead th:first-child {
+    border: none;
+}
+.datagrid table tbody td { 
+    color: #000508;
+    border-left: 2px solid #151617;
+    font-size: 12px;
+    border-bottom: 2px solid #020203;
+    font-weight: normal; 
+}
+.datagrid table tbody td:first-child { 
+    border-left: none; 
+}
+.datagrid table tbody tr:last-child td {
+    border-bottom: none;*/
+
+
 .tabla{
     margin-left: 150px;
     margin-right: 150px;  
 }
-.dato{
-  background-color: crimson;
-    border-radius: 10px;
 
-}
